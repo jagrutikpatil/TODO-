@@ -1,0 +1,79 @@
+*{
+  background-color: #8758ff;;
+}
+.container{
+  height: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  text-decoration: underline;
+}
+
+/* add task button */
+.sub{
+  background-color: green;
+  margin-left:5px;
+  color: rgb(253, 253, 253);
+  height: 35px;
+  width: 100px;
+}
+.sub:hover{
+  background-color: rgb(225, 67, 67);
+}
+
+/* input box */
+.input{
+  height: 30px;
+  width: 35%;
+  font-size: large;
+  border: 1px solid black;
+  /* color: white; */
+}
+
+ul{
+  margin: 20px 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none
+}
+.list{
+  border: 3px solid #ac90f7;
+  /* margin: 20px; */
+  margin: auto;
+  height: 8vh;
+  width: 40%;
+  display: flex;
+  /* align-items: center; */
+  /* margin-left: 100px; */
+  justify-content: space-between;
+}
+
+li{
+
+  margin: 10px;
+  color: white;
+  background-color: none;
+}
+
+/* delete button */
+.list-btn{
+  background-color: red;
+  color: azure;
+  position: relative;
+  /* right: 20%; */
+  top: 22%;
+  height: 27px;
+}
+button{
+  margin-right: 5px;
+}
+
+label{
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
